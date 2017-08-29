@@ -10,7 +10,6 @@ const config = require('./config');
 const router = require('./router');
 
 const app = express();
-
 firebase.initializeApp(config.fireBaseSettings);
 // app setup
 app.use(morgan('combined'));
